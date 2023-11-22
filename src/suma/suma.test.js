@@ -1,6 +1,6 @@
+// Test unitario
 const sum = require("./suma");
-
-test("10 + 20 should be 30", () => {
+test("10 + 20 debería ser 30", () => {
   // sujeto de prueba
   const result = sum(10, 20);
   // test
